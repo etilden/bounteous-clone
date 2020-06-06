@@ -1,38 +1,102 @@
 .App {
-  text-align: center;
+  margin: 5% auto auto auto;
+  background-color: #bdbfc4;
+  height: 60%;
+  width: 60%;
+  padding: 5%;
 }
+
+.content_box {
+  width: 90%;
+  height: 0;
+  padding-bottom: 90%;
+  margin: 5%;
+  border-radius: 25px;
+  background-color: white;
+  background-image: url(bounteous_img.png);
+  background-repeat: no-repeat;
+  background-size: 100% 55%;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+  position: relative; 
+}
+
+.bottom_text {
+  padding-left: 5%;
+  max-width: 95%;
+}
+
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  width: 15%;
+  height: auto;
+  margin: 47% auto auto 5%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.5);
 }
 
-@media (prefers-reduced-motion: no-preference) {
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.hash_link {
+  color: rgb(66, 65, 65);
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5vw;
+  color: rgb(66, 65, 65);
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2vw;
+  color: rgb(82, 82, 82);
+}
+
+.smaller_text {
+  font-size: 1.4vw;
+}
+
+button {
+  border-radius: 8px;
+  font-size: 1.5vw;
+  width: 20%;
+  float: right;
+  margin: 60% 5% auto auto;
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+}
+
+.unclicked {
+  color: rgb(69, 52, 218);
+  border: 2px solid rgb(69, 52, 218);
+}
+
+.clicked {
+  color: white; 
+  background-color: rgb(69, 52, 218);
+  border: 2px solid white;
+}
+
+@media (max-width: 900px) {
+  /* .content_box {
+    background-size: 100% 40%;
+  }
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    margin: 33% auto auto 3%
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  button {
+    margin: 43% 5% auto auto; */
+  /* } */
+  h1 {
+    font-size: 3vw;
   }
-  to {
-    transform: rotate(360deg);
+  p {
+    font-size: 2vw;
+  }
+  .smaller_text {
+    font-size: 1.6vw;
   }
 }
