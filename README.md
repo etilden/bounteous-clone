@@ -11,4 +11,4 @@ This application is a simple, one page rendition of a bounteous profile componen
 
 Here is a screenshot of what this application looks like in-browser: 
 
-![Here is what the project looks like in browser](/In-Browser-render.png)
+![Here is what the project looks like in browser](./In-Browser-render.png)
